@@ -1,0 +1,6 @@
+<launch>
+	<node name="trinity_peripheral_node" pkg="trinity_peripheral" type="trinity_peripheral_node" output="screen">
+		<param name="trinity_uart_port" value="/dev/PERIPHERAL" type="string"/>
+		<param name="trinity_uart_baudrate" value="115200" type="int"/>	
+	</node>
+</launch>
